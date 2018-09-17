@@ -1,6 +1,6 @@
 # NumberGame-Pure-Javascript-Based
 
-Demo -
+Demo -https://khatridisha.github.io/NumberGame-Pure-Javascript-Based/
 
 Game Rule
 
