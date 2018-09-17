@@ -73,7 +73,7 @@ function gameStart(){
                 document.querySelector("#totalmoney").innerHTML = total1;                
         }
 
-        else if((a-b == Math.abs(1) && b-c == Math.abs(1)) || (a-b == Math.abs(1) && a-c == Math.abs(1)) || (b-c) ==Math.abs(1) && c-a== Math.abs(1)){
+        else if( (Math.abs(a-b) == 1 && Math.abs(c-a) == 1 && a != b && b != c && c != a ) || (Math.abs(a-b) == 1 && Math.abs(b-c) == 1 && a != b && b != c && c != a) || (Math.abs(b-c) == 1 && Math.abs(c-a) == 1 && a != b && b != c && c != a)){
 
             document.querySelector("#checkcondition").innerHTML  = "you have won 800 INR as all the numbers are equal";
             const s = parseInt(document.querySelector("#totalmoney").innerHTML);
